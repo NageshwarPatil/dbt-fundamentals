@@ -1,0 +1,9 @@
+version: 2
+sources:
+  - name: sales_sources # this is the source_name
+    database: PRC
+    schema: DBT_NPATIL
+
+    tables:
+      - name: customer # this is the table_name
+    
